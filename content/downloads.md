@@ -18,22 +18,22 @@ This is a highly experimental build: we recommend users wait for the beta releas
 are functional.
 
 * Embroidermodder 2.0.0-alpha3
-   - Windows (https://www.libembroidery.org/builds/embroidermodder_2.0.0-alpha3_windows.zip)
-   - GNU/Linux (https://www.libembroidery.org/builds/embroidermodder_2.0.0-alpha3_linux.tar.gz)
-   - Mac OS (https://www.libembroidery.org/builds/embroidermodder_2.0.0-alpha3_macos.tar.gz)
+   - [Windows](https://www.libembroidery.org/downloads/embroidermodder_2.0.0-alpha3_windows.zip)
+   - [GNU/Linux](https://www.libembroidery.org/downloads/embroidermodder_2.0.0-alpha3_linux.tar.gz)
+   - [Mac OS](https://www.libembroidery.org/downloads/embroidermodder_2.0.0-alpha3_macos.tar.gz)
 * Embroidermodder 2.0.0-alpha2
-   - Windows (https://www.libembroidery.org/builds/Windows_Archive.zip)
-   - GNU/Linux (https://www.libembroidery.org/builds/GNU_Linux_Archive.tar.gz)
-   - Mac OS (https://www.libembroidery.org/builds/MacOS_Archive.tar.gz)
+   - [Windows](https://www.libembroidery.org/downloads/Windows_Archive.zip)
+   - [GNU/Linux](https://www.libembroidery.org/downloads/GNU_Linux_Archive.tar.gz)
+   - [Mac OS](https://www.libembroidery.org/downloads/MacOS_Archive.tar.gz)
 
 For the most up-to date builds visit our [GitHub Releases page](https://github.com/Embroidermodder/Embroidermodder/releases/tag/alpha).
 
 libembroidery
 -------------
 
-* Windows (https://www.libembroidery.org/builds/Windows_Archive.zip)
-* GNU/Linux (https://www.libembroidery.org/builds/GNU_Linux_Archive.tar.gz)
-* Mac OS (https://www.libembroidery.org/builds/MacOS_Archive.tar.gz)
+* [Windows](https://www.libembroidery.org/downloads/Windows_Archive.zip)
+* [GNU/Linux](https://www.libembroidery.org/downloads/GNU_Linux_Archive.tar.gz)
+* [Mac OS](https://www.libembroidery.org/downloads/MacOS_Archive.tar.gz)
 
 embroider
 ---------
@@ -45,22 +45,22 @@ same in less-often updated machines, you will need specific versions which will 
 
 .. warning:: These links need fixing.
 
-* https://www.libembroidery.org/downloads/windows/embroider
-* https://www.libembroidery.org/downloads/gnulinux/embroider
-* https://www.libembroidery.org/downloads/macos/embroider
+* [https://www.libembroidery.org/downloads/windows/embroider](https://www.libembroidery.org/downloads/windows/embroider)
+* [https://www.libembroidery.org/downloads/gnulinux/embroider](https://www.libembroidery.org/downloads/gnulinux/embroider)
+* [https://www.libembroidery.org/downloads/macos/embroider](https://www.libembroidery.org/downloads/macos/embroider)
 
 For example:
 
-    wget https://www.libembroidery.org/builds/windows/embroider
+    wget https://www.libembroidery.org/downloads/windows/embroider
 
 gets the executable directly.
 
 EmbroideryMobile
 ----------------
 
-* Windows (https://www.libembroidery.org/builds/Windows_Archive.zip)
-* GNU/Linux (https://www.libembroidery.org/builds/GNU_Linux_Archive.tar.gz)
-* Mac OS (https://www.libembroidery.org/builds/MacOS_Archive.tar.gz)
+* [Windows](https://www.libembroidery.org/downloads/Windows_Archive.zip)
+* [GNU/Linux](https://www.libembroidery.org/downloads/GNU_Linux_Archive.tar.gz)
+* [Mac OS](https://www.libembroidery.org/downloads/MacOS_Archive.tar.gz)
 
 Old Versions
 ------------
@@ -73,4 +73,4 @@ Version 1.70
 
 During this alpha development you may prefer to use the original
 Embroidermodder 1.70 (Windows Only):
-https://www.libembroidery.org/builds/embroidermodder170_exe.zip
+[https://www.libembroidery.org/downloads/embroidermodder170_exe.zip](https://www.libembroidery.org/downloads/embroidermodder170_exe.zip).
