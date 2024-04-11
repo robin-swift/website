@@ -4,3 +4,6 @@
 [submodule "refman"]
 	path = refman
 	url = https://github.com/embroidermodder/refman
+[submodule "user-manual"]
+	path = user-manual
+	url = https://github.com/embroidermodder/user-manual
