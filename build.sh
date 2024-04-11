@@ -23,9 +23,12 @@ function build_emscripten_version () {
 }
 
 function build_website () {
-	rm -fr _site
+	git submodule init
+	git submodule update
+
+ 	rm -fr _site
 	mkdir -p _site
-	cp -R data downloads commands images icons samples fonts favicon.png _site
+	cp -R refman/data downloads commands images icons samples fonts favicon.png _site
 
 	for file in index downloads about changelog credits documentation todo converter
 	do
