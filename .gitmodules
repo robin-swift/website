@@ -7,3 +7,9 @@
 [submodule "user-manual"]
 	path = user-manual
 	url = https://github.com/embroidermodder/user-manual
+[submodule "mobile"]
+	path = mobile
+	url = https://github.com/embroidermodder/embroiderymobile
+[submodule "embroidermodder"]
+	path = embroidermodder
+	url = https://github.com/embroidermodder/embroidermodder
