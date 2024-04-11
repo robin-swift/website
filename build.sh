@@ -14,9 +14,9 @@ mv emrm.pdf downloads/emrm-current.pdf
 
 rm -fr _site
 mkdir -p _site
-cp -R data downloads commands images icons samples fonts converter favicon.png _site
+cp -R data downloads commands images icons samples fonts favicon.png _site
 
-for file in index downloads about changelog credits documentation todo
+for file in index downloads about changelog credits documentation todo converter
 do
 make_page $file
 done
