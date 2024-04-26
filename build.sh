@@ -8,8 +8,7 @@ function make_page () {
 }
 
 function build_emscripten_version () {
-	git submodule init
-	git submodule update
+	git clone https://github.com/embroidermodder/libembroidery
 	cd libembroidery
 	emcc embroidery.c -o embroidery.wasm
 	mv embroidery.wasm ../downloads
@@ -17,9 +16,10 @@ function build_emscripten_version () {
 
 function build_subproject () {
 	cd $1
+		git clone https://github.com/embroidermodder/$1
 		bash build.sh
 	cd ..
-	cp -R $1/site _site/$1
+	cp -r $1/site _site
 }
 
 #build_emscripten_version
@@ -29,7 +29,7 @@ git submodule update
 
 rm -fr _site
 mkdir -p _site
-cp -R refman/data downloads commands images icons samples fonts favicon.png _site
+cp -R downloads commands images icons samples fonts favicon.png _site
 
 for file in index downloads about changelog credits documentation todo converter
 do
