@@ -19,7 +19,7 @@ function build_subproject () {
 	cd $1
 		bash build.sh
 	cd ..
-	cp -r $1/site _site
+	cp -r $1/site _site/$1
 }
 
 #build_emscripten_version
