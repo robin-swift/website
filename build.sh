@@ -15,8 +15,8 @@ function build_emscripten_version () {
 }
 
 function build_subproject () {
+	git clone https://github.com/embroidermodder/$1
 	cd $1
-		git clone https://github.com/embroidermodder/$1
 		bash build.sh
 	cd ..
 	cp -r $1/site _site
