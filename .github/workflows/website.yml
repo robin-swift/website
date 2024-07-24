@@ -17,7 +17,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        run: bash build.sh --docs
+        run: bash build.sh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
