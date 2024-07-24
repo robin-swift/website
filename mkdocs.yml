@@ -38,7 +38,6 @@ theme:
     - navigation.tabs
     - navigation.indexes
     - navigation.top
-  custom_dir: theme
   font:
     text: 'Source Serif 4'
 plugins:
