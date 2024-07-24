@@ -11,6 +11,6 @@ pip install markdown-grid-tables
 
 rm -fr _site
 
-mkdocs .
+mkdocs build
 
 mv site _site
