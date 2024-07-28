@@ -1,5 +1,8 @@
 #!/bin/sh
 
+git clone https://github.com/embroidermodder/userman
+git clone https://github.com/embroidermodder/refman
+
 python3 -m pip install --upgrade pip
 
 pip install mkdocs
