@@ -2,11 +2,10 @@
 
 mkdir test_report
 
-# Get dependencies?
-
 git clone https://github.com/Embroidermodder/embroidermodder
 cd embroidermodder
-bash build.sh -d &> ../test_report/build_embroidermodder.log
+bash build.sh --linux &> ../test_report/build_embroidermodder.log
+bash build.sh -d &> ../test_report/debug_embroidermodder.log
 cd ..
 
 git clone https://github.com/Embroidermodder/libembroidery
