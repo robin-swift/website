@@ -13,7 +13,7 @@ permissions:
   id-token: write
 
 jobs:
-  run_testing:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -25,13 +25,6 @@ jobs:
         with:
           name: test-report
           path: docs
-
-  build:
-    needs: run_testing
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
       - name: Build
         run: bash build.sh
       - name: Upload artifact
