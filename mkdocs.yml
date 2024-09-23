@@ -9,6 +9,7 @@ nav:
   - 'Downloads': 'downloads/index.md'
   - 'About': 'about.md'
   - 'Documentation': 'documentation.md'
+  - 'Testing': 'testing.md'
   - 'Contact': 'contact.md'
   - 'Donate': https://opencollective.com/embroidermodder
   - 'Github': https://github.com/Embroidermodder

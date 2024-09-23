@@ -26,3 +26,5 @@ git clone https://github.com/Embroidermodder/EmbroideryMobile || fail_result 13
 cd EmbroideryMobile || fail_result 14
 bash build.sh -d &> ../test_report/build_mobile.log || fail_result 15
 cd .. || fail_result 16
+
+cat test_report/* > docs/testing.md || fail_result 17
