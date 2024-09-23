@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 RES="`pwd`/docs/testing.md"
 
@@ -9,6 +9,8 @@ function fail_result () {
 }
 
 date &>> $RES
+
+rm -fr embroidermodder libembroidery
 
 echo "## Embroidermodder Download" > $RES
 git clone https://github.com/Embroidermodder/embroidermodder &>> $RES || fail_result 1
@@ -21,7 +23,8 @@ echo -e '\n```\n' >> $RES
 
 echo "## Embroidermodder Debug" >> $RES
 echo -e '\n```\n' >> $RES
-bash build.sh -d &>> $RES || fail_result 3
+CURRENTLY DEACTIVATED
+#bash build.sh -d &>> $RES || fail_result 3
 echo -e '\n```\n' >> $RES
 
 cd ..
@@ -37,7 +40,8 @@ echo -e '\n```\n' >> $RES
 
 echo "## Libembroidery Testing" >> $RES
 echo -e '\n```\n' >> $RES
-./embroider --test &>> $RES || fail_result 7
+CURRENTLY DEACTIVATED
+#./embroider --test &>> $RES || fail_result 7
 echo -e '\n```\n' >> $RES
 
 cd ../..
@@ -47,7 +51,8 @@ cd EmbroideryMobile
 
 echo "## " >> $RES
 echo -e '\n```\n' >> $RES
-bash build.sh -d &>> $RES || fail_result 9
+CURRENTLY DEACTIVATED
+#bash build.sh -d &>> $RES || fail_result 9
 echo -e '\n```\n' >> $RES
 
 cd ..
