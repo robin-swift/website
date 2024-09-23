@@ -1,8 +1,8 @@
 #!/bin/sh
 
-echo "```" > docs/testing.md
+echo '```' > docs/testing.md
 cat test_report/* >> docs/testing.md
-echo "```" >> docs/testing.md
+echo '```' >> docs/testing.md
 
 git clone https://github.com/embroidermodder/userman
 git clone https://github.com/embroidermodder/refman
