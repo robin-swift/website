@@ -23,3 +23,10 @@ jobs:
         with:
           name: test-report
           path: test_report
+      - name: Status Report
+        run: |
+            if [ `cat test_report/result.txt` = 1 ]
+            then
+                exit 1
+            fi
+        shell: bash
