@@ -25,6 +25,7 @@ jobs:
           path: test_report
 
   build:
+    needs: run_testing
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,6 +36,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
 
   deploy:
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
