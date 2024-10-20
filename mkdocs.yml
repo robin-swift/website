@@ -12,7 +12,6 @@ nav:
   - 'Testing': 'testing.md'
   - 'Contact': 'contact.md'
   - 'Donate': https://opencollective.com/embroidermodder
-  - 'Github': https://github.com/Embroidermodder
 theme:
   name: material
   language: en
