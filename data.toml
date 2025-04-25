@@ -1,0 +1,17 @@
+[meta]
+overview = "Data used by out build, testing and QA apparatus."
+
+[example-badge]
+schemaVersion = 1
+label = "License"
+message = "MIT"
+color = "yellow"
+
+[embroidermodder]
+version = "2.0.0-alpha"
+
+[libembroidery]
+version = "1.0.0-alpha"
+
+[embroideryMobile]
+version = "1.0.0-alpha"
